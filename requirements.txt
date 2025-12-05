@@ -1,0 +1,11 @@
+import os
+import io
+import json
+import math
+import tempfile
+!pip install pypdf
+import logging
+import requests
+from typing import List, Tuple
+
+from pypdf import PdfReader
