@@ -8,7 +8,7 @@ from PyPDF2 import PdfReader
 # Your 3 things – change only these
 BUCKET = "pdf-demo-rag"          # ← change
 PDF_NAME = "document.pdf"             # ← change
-GEMINI_KEY = "AIzaSyDxNXZqXntcrkhJP9I9HRiUcaGvuPzk_Jo" # ← change
+GEMINI_KEY = "" # ← change
 
 genai.configure(api_key=GEMINI_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
